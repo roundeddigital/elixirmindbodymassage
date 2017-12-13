@@ -1,0 +1,35 @@
+/*
+Theme Name:   Rounded Digital
+Description:  This website was developed by the team at Rounded Digital. It's been built for speed, flexibility and curb-appeal - all in pursuit of growing your business. We appreciate your business, and we also appreciate the Uncode framework in which this site was contructed.
+Author:       Rounded Digital
+Author URL:   https://roundeddigital.com
+Template:     uncode
+Version:      1.0
+Text Domain:  uncode-child
+*/
+
+/* Write here your own personal stylesheet */
+
+/* Blog Header */
+@media (max-width: 959px) {
+	.main-container .row-inner > div:not([class*=col-md]) {
+   		padding: 0px 0px 0px 0px;
+	}
+	h6:not([class*="fontsize-"]), .h6:not([class*="fontsize-"]) {
+    	font-size: 12px;
+    	font-weight: 500;
+    	font-style: normal;
+    	color: red;
+    	text-transform: initial;
+    	line-height: .8;
+	}
+	.main-container .row-container .double-bottom-padding {
+   	 	padding-bottom: 0px;
+	}
+	.main-container .row-container .double-top-padding {
+    	padding-top: 20px;
+	}
+	.row-inner {
+		/*height: 100px!important;*/
+	}
+}
